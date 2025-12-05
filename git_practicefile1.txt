@@ -1,1 +1,9 @@
 hello team welcome to the git classes
+Create a new branch
+git branch feature-login
+
+Switch to a branch
+git checkout feature-login
+# OR new command:
+git switch feature-login
+

@@ -7,3 +7,64 @@ git checkout feature-login
 # OR new command:
 git switch feature-login
 
+
+
+git clone
+Why?
+
+To download a project from GitHub into your system.
+git clone https://github.com/user/repo.git
+
+git log
+
+Why?
+
+To see all commit history.
+git log --oneline --graph
+
+
+
+git diff
+Why?
+
+To see what changes you made before committing.
+git diff
+
+
+
+⭐ Difference Between git stash & git stash pop
+
+| Command         | What it does                                  | Why we use it                                      |
+| --------------- | --------------------------------------------- | -------------------------------------------------- |
+| `git stash`     | Saves your uncommitted changes temporarily    | To clean your working directory without committing |
+| `git stash pop` | Restores the stashed changes and removes them | To continue your unfinished work                   |
+
+
+
+What is git pull?
+git pull downloads the latest changes from the remote repo (GitHub) and merges them into your local branch automatically.
+
+
+⭐ Why do we use git pull?
+
+Because your teammates or you (from another system) might have pushed new changes to GitHub.
+
+To keep your local project up to date, you must run:
+
+git pull origin main
+
+
+GIT CLONE
+Downloads a complete repository from GitHub into your system.
+git clone -b branchname URL
+
+
+⭐ How Fork Works (Step-by-step)
+✔️ 1. Click “Fork”
+
+On GitHub → open any repository → click Fork at top-right.
+
+This creates a separate repo in your GitHub account.
+
+✔️ 2. Clone your fork
+git clone https://github.com/yourname/project-name.git
